@@ -1,4 +1,4 @@
-package ud.progIII.pr0506;
+package ud.prog3.pr0506;
 
 /** Clase básica para realizar pruebas de eficiencia de memoria y tiempo de ejecución de código.
  * @author Andoni Eguíluz Morán

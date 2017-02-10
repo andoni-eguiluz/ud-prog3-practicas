@@ -1,4 +1,4 @@
-package ud.progIII.pr02;
+package ud.prog3.pr02;
 
 import java.awt.BorderLayout;
 import java.awt.Color;

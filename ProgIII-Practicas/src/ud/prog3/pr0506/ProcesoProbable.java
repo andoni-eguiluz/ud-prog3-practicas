@@ -1,4 +1,4 @@
-package ud.progIII.pr0506;
+package ud.prog3.pr0506;
 
 /** Interfaz Java para un proceso que puede probarse (en tiempo y espacio de memoria) en el banco de pruebas.
  * @author Andoni Eguíluz Morán

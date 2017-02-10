@@ -1,4 +1,4 @@
-package ud.progIII.pr0304;
+package ud.prog3.pr0304;
 
 import java.awt.*;
 import java.awt.event.*;

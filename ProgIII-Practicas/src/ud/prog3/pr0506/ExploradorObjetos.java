@@ -1,4 +1,4 @@
-package ud.progIII.pr0506;
+package ud.prog3.pr0506;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;

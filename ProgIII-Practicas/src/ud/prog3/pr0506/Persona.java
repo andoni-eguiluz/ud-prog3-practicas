@@ -1,4 +1,4 @@
-package ud.progIII.pr0506;
+package ud.prog3.pr0506;
 
 /** Clase de datos de una persona, utilizada para pruebas de eficiencia de estructuras de datos en este paquete.
  * @author Andoni Eguíluz Morán
