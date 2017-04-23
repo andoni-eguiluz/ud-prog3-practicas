@@ -113,6 +113,20 @@ public class ExploradorObjetos {
 	/** Devuelve un despliegue de los atributos (y sus valores, y sus tamaños en memoria) de un objeto,
 	 * introduciéndolos en un modelo de datos de árbol, visualizable en un JTree.
 	 * @param o	Objeto que se quiere analizar (diferente de null)
+	 * @param atributosAVer	Lista de atributos que se quieren visualizar, incluidos en un string
+	 * @return	Tamaño en bytes del objeto
+	 */
+	public static DefaultTreeModel atributosYValoresToTree(Object o, String atributosAVer ) {
+		raiz = new DefaultMutableTreeNode( o.toString() );
+		DefaultTreeModel arbol = new DefaultTreeModel( raiz );
+		atributosYValoresToString( "", o, false, false, atributosAVer );
+		raiz = null;
+		return arbol;
+	}
+	
+	/** Devuelve un despliegue de los atributos (y sus valores, y sus tamaños en memoria) de un objeto,
+	 * introduciéndolos en un modelo de datos de árbol, visualizable en un JTree.
+	 * @param o	Objeto que se quiere analizar (diferente de null)
 	 * @return	Tamaño en bytes del objeto
 	 */
 	public static DefaultTreeModel atributosYValoresToTree(Object o) {
