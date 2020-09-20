@@ -16,7 +16,6 @@ import javax.swing.event.ListDataListener;
 public class ListaDeReproduccion implements ListModel<String> {
 	ArrayList<File> ficherosLista;     // ficheros de la lista de reproducci�n
 	int ficheroEnCurso = -1;           // Fichero seleccionado (-1 si no hay ninguno seleccionado)
-	// Test
 	
 	/** Devuelve uno de los ficheros de la lista
 	 * @param posi	Posici�n del fichero en la lista (de 0 a size()-1)
